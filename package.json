@@ -1,6 +1,9 @@
 {
   "name": "vue-cmb-router",
-  "version": "0.1.0",
+  "version": "0.1.2",
+  "author": "lvjiaxuan",
+  "main": "./dist/VueCmbRouter.umd.min.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name VueCmbRouter ./src/plugin.ts"
@@ -20,8 +23,17 @@
       "autoprefixer": {}
     }
   },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions"
+  ],
+  "keywords": [
+    "cmb app",
+    "route"
   ]
 }
