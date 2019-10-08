@@ -5,7 +5,7 @@
 
 ## 前言
 
-招商银行app中的WebView跳转组件，为的是使app中的WebView左上角返回键能在使用`vue-router`情况下正常返回。
+招商银行app中的WebView路由跳转组件，为的是使app中的WebView左上角返回键能在使用`vue-router`情况下正常返回。
 
 ## 用法
 
