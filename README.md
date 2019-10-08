@@ -1,29 +1,12 @@
-# vue-cmb-route
+一定要使用history模式
 
-## Project setup
-```
-npm install
-```
+声明文件
 
-### Compiles and hot-reloads for development
+```ts
+import Vue from 'vue';
+declare module 'vue/types/vue' {
+  interface Vue {
+    $cmbPush: (to: string) => void
+  }
+}
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
